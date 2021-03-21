@@ -9,6 +9,11 @@ namespace ClubsCatalog
         public string Name { get; set; }
         public virtual ICollection<Player> Players { get; set; }
 
+        public Club()
+        {
+            Players = new List<Player>();
+        }
+
         public override string ToString()
         {
             return Name;
