@@ -6,7 +6,7 @@ namespace ClubsCatalog
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClubDbContext db = new ClubDbContext();
         }
     }
 }
